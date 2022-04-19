@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    
+    "id": "@id",
+    "type": "@type",
+    
+    "vKYC": {
+      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#vKYC",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        
+        "email": "kyc:email",
+        "telephone": "kyc:telephone",
+
+        "fullName": "kyc:fullName",
+        "lastName": "kyc:lastName",
+        "firstName": "kyc:firstName",
+        "middleName": "kyc:middleName",
+        "honorificPrefix": "kyc:honorificPrefix",
+        "honorificSuffix": "kyc:honorificSuffix",
+
+        "birthDate": { "@id": "kyc:birthDate", "@type": "xsd:dateTime" },
+		    "birthPlace": "kyc:birthPlace",
+
+        "nationality": "kyc:nationality",
+
+        "passportNumber": "kyc:passportNumber",
+        "nationalIdNumber":  "kyc:nationalIdNumber",
+        
+        "registrationAddressFull": "kyc:registrationAddressFull",
+        "registrationAddressDetails": { 
+          "@id": "kyc:RegistrationAddressDetails",
+          "@type": "kyc:RegistrationAddressDetails"
+        },
+
+        "socialSecurityNumber": "kyc:socialSecurityNumber"
+      }
+    },
+
+    "RegistrationAddressDetails": {
+      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#RegistrationAddressDetails",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        
+        "country": "kyc:country",
+        "postalCode": "kyc:postalCode",
+        "region": "kyc:region",
+        "locality": "kyc:locality",
+        "streetAddress": "kyc:streetAddress"
+      }
+    },
+
+    "DrivingLicence": {
+      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DrivingLicence",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        
+        "drivingLicenceNumber": "kyc:drivingLicenceNumber",
+
+        "firstName": "kyc:firstName",
+        "lastName": "kyc:lastName",
+
+        "birthDate": "kyc:birthDate",
+
+        "issueDate": "kyc:issueDate",
+        "expiryDate": "kyc:expiryDate",
+
+        "sex": "kyc:sex",
+
+        "height": "kyc:height",
+        "weight": "kyc:weight",
+        "eyes": "kyc:eyes",
+        "hair": "kyc:hair"
+      }
+    },
+
+    "Passport": {
+      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#Passport",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        
+        "passportType": "kyc:passportType",
+        "passportCode": "kyc:passportCode",
+        "passportNumber": "kyc:passportNumber",
+
+        "firstName": "kyc:firstName",
+        "lastName": "kyc:lastName",
+
+        "birthDate": "kyc:birthDate",
+        "birthPlace": "kyc:birthPlace",
+
+        "nationality": "kyc:nationality",
+
+        "issueAuthority": "kyc:issueAuthority",
+        "issueDate": "kyc:issueDate",
+        "expiryDate": "kyc:expiryDate",
+
+        "sex": "kyc:sex",
+        
+        "checkHologram": "kyc:checkHologram",
+        "checkMicroprint": "kyc:checkMicroprint",
+        "checkSignature": "kyc:checkSignature",
+        "checkSecurityFeatures": "kyc:checkSecurityFeatures",
+        "checkDataPositions": "kyc:checkDataPositions",
+        "checkDocumentValidation": "kyc:checkDocumentValidation"
+      }
+    }
+  }
+}
