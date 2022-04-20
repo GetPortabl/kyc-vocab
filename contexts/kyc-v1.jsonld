@@ -17,13 +17,13 @@
 
         "kyc": "https://portabl-id.github.io/kyc-vocab#",
         
-        "email": "kyc:email",
-        "telephone": "kyc:telephone",
+        "emailAddress": "kyc:emailAddress",
+        "phoneNumber": "kyc:phoneNumber",
 
         "fullName": "kyc:fullName",
-        "lastName": "kyc:lastName",
         "firstName": "kyc:firstName",
         "middleName": "kyc:middleName",
+        "lastName": "kyc:lastName",
         "honorificPrefix": "kyc:honorificPrefix",
         "honorificSuffix": "kyc:honorificSuffix",
 
@@ -32,16 +32,13 @@
 
         "nationality": "kyc:nationality",
 
-        "passportNumber": "kyc:passportNumber",
-        "nationalIdNumber":  "kyc:nationalIdNumber",
-        
+        "socialSecurityNumber": "kyc:socialSecurityNumber",
+
         "registrationAddressFull": "kyc:registrationAddressFull",
         "registrationAddressDetails": { 
           "@id": "kyc:RegistrationAddressDetails",
           "@type": "kyc:RegistrationAddressDetails"
-        },
-
-        "socialSecurityNumber": "kyc:socialSecurityNumber"
+        }
       }
     },
 
