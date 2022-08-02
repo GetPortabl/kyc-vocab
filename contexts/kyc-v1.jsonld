@@ -7,7 +7,7 @@
     "type": "@type",
     
     "vKYC": {
-      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#vKYC",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#vKYC",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -15,7 +15,8 @@
         "id": "@id",
         "type": "@type",
 
-        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
         
         "emailAddress": "kyc:emailAddress",
         "phoneNumber": "kyc:phoneNumber",
@@ -43,7 +44,7 @@
     },
 
     "RegistrationAddressDetails": {
-      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#RegistrationAddressDetails",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#RegistrationAddressDetails",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -51,7 +52,7 @@
         "id": "@id",
         "type": "@type",
 
-        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
         
         "country": "kyc:country",
         "postalCode": "kyc:postalCode",
@@ -62,7 +63,7 @@
     },
 
     "DrivingLicence": {
-      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DrivingLicence",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DrivingLicence",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -70,7 +71,7 @@
         "id": "@id",
         "type": "@type",
 
-        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
         
         "drivingLicenceNumber": "kyc:drivingLicenceNumber",
 
@@ -92,7 +93,7 @@
     },
 
     "Passport": {
-      "@id": "https://portabl-id.github.io/kyc-vocab/contexts/kyc-v1.jsonld#Passport",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#Passport",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -100,7 +101,7 @@
         "id": "@id",
         "type": "@type",
 
-        "kyc": "https://portabl-id.github.io/kyc-vocab#",
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
         
         "passportType": "kyc:passportType",
         "passportCode": "kyc:passportCode",
