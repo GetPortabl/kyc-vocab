@@ -39,7 +39,10 @@
         "registrationAddressDetails": { 
           "@id": "kyc:RegistrationAddressDetails",
           "@type": "kyc:RegistrationAddressDetails"
-        }
+        },
+
+        "driverLicenseId": "kyc:driverLicenseId",
+        "passportNumber": "kyc:passportNumber"
       }
     },
 
@@ -59,6 +62,58 @@
         "region": "kyc:region",
         "locality": "kyc:locality",
         "streetAddress": "kyc:streetAddress"
+      }
+    },
+
+    "DriverLicense": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DriverLicence",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
+
+        "driverLicenseId": "kyc:driverLicenseId",
+
+        "firstName": "kyc:firstName",
+        "lastName": "kyc:lastName",
+
+        "birthDate": "kyc:birthDate",
+
+        "issueDate": "kyc:issueDate",
+        "expiryDate": "kyc:expiryDate",
+        "sex": "kyc:sex"
+      }
+    },
+
+    "Passport": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#Passport",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
+
+        "passportCountry": "kyc:passportCountry",
+        "passportNumber": "kyc:passportNumber",
+
+        "firstName": "kyc:firstName",
+        "lastName": "kyc:lastName",
+
+        "birthDate": "kyc:birthDate",
+        "birthPlace": "kyc:birthPlace",
+
+        "nationality": "kyc:nationality",
+
+        "issueAuthority": "kyc:issueAuthority",
+        "issueDate": "kyc:issueDate",
+        "expiryDate": "kyc:expiryDate"
       }
     }
   }
