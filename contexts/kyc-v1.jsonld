@@ -6,8 +6,8 @@
     "id": "@id",
     "type": "@type",
     
-    "vKYC": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#vKYC",
+    "vKYCCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#vKYCCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -65,8 +65,8 @@
       }
     },
 
-    "DriverLicense": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DriverLicence",
+    "DriverLicenseCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DriverLicenceCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -89,8 +89,8 @@
       }
     },
 
-    "Passport": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#Passport",
+    "PassportCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#PassportCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
