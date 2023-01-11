@@ -116,5 +116,22 @@
         "expiryDate": "kyc:expiryDate"
       }
     }
+
+    "SocialSecurityCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#SocialSecurityCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
+
+        "ssn": "kyc:ssn",
+        "firstName": "kyc:firstName",
+        "lastName": "kyc:lastName",
+      }
+    }
   }
 }
