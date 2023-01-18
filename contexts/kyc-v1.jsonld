@@ -132,7 +132,7 @@
         "firstName": "kyc:firstName",
         "lastName": "kyc:lastName"
       }
-    }
+    },
 	  
     "SelfSignedIdCredential": {
       "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#SelfSignedIdCredential",
