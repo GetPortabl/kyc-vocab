@@ -32,6 +32,8 @@
 		    "birthPlace": "kyc:birthPlace",
 
         "nationality": "kyc:nationality",
+	      
+	"sex": "kyc:sex",
 
         "socialSecurityNumber": "kyc:socialSecurityNumber",
 
@@ -85,6 +87,7 @@
 
         "issueDate": "kyc:issueDate",
         "expiryDate": "kyc:expiryDate",
+	      
         "sex": "kyc:sex"
       }
     },
@@ -113,7 +116,9 @@
 
         "issueAuthority": "kyc:issueAuthority",
         "issueDate": "kyc:issueDate",
-        "expiryDate": "kyc:expiryDate"
+        "expiryDate": "kyc:expiryDate",
+	      
+	"sex": "kyc:sex"
       }
     },
 
