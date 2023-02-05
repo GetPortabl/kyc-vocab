@@ -44,6 +44,7 @@
         },
 
         "driverLicenseId": "kyc:driverLicenseId",
+	"idCardNumber": "kyc:idCardNumber",
         "passportNumber": "kyc:passportNumber"
       }
     },
@@ -79,6 +80,31 @@
         "kyc": "https://getportabl.github.io/kyc-vocab#",
 
         "driverLicenseId": "kyc:driverLicenseId",
+
+        "firstName": "kyc:firstName",
+        "lastName": "kyc:lastName",
+
+        "birthDate": "kyc:birthDate",
+
+        "issueDate": "kyc:issueDate",
+        "expiryDate": "kyc:expiryDate",
+	      
+        "sex": "kyc:sex"
+      }
+    },
+	  
+    "IdCardCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#IdCardCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
+
+        "idCardNumber": "kyc:idCardNumber",
 
         "firstName": "kyc:firstName",
         "lastName": "kyc:lastName",
@@ -133,7 +159,8 @@
 
         "kyc": "https://getportabl.github.io/kyc-vocab#",
 
-        "ssn": "kyc:ssn",
+        "socialSecurityNumber": "kyc:socialSecurityNumber",
+
         "firstName": "kyc:firstName",
         "lastName": "kyc:lastName"
       }
@@ -147,6 +174,36 @@
 	  
         "id": "@id",
         "type": "@type"
+      }
+    },
+	  
+    "EmailAddressCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#EmailAddressCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
+
+        "emailAddress": "kyc:emailAddress"
+      }
+    },
+
+    "PhoneNumberCredential": {
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#PhoneNumberCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "kyc": "https://getportabl.github.io/kyc-vocab#",
+
+        "phoneNumber": "kyc:phoneNumber"
       }
     }
   }
