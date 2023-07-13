@@ -17,54 +17,31 @@
 
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "kyc": "https://getportabl.github.io/kyc-vocab#",
-        
-        "emailAddress": "kyc:emailAddress",
-        "phoneNumber": "kyc:phoneNumber",
 
-        "fullName": "kyc:fullName",
         "firstName": "kyc:firstName",
-        "middleName": "kyc:middleName",
         "lastName": "kyc:lastName",
-        "honorificPrefix": "kyc:honorificPrefix",
-        "honorificSuffix": "kyc:honorificSuffix",
 
-        "birthDate": { "@id": "kyc:birthDate", "@type": "xsd:dateTime" },
-		    "birthPlace": "kyc:birthPlace",
-
-        "nationality": "kyc:nationality",
-	      
 	"sex": "kyc:sex",
-
-        "socialSecurityNumber": "kyc:socialSecurityNumber",
-
-        "registrationAddressFull": "kyc:registrationAddressFull",
-        "registrationAddressDetails": { 
-          "@id": "kyc:RegistrationAddressDetails",
-          "@type": "kyc:RegistrationAddressDetails"
-        },
+        "birthDate": { "@id": "kyc:birthDate", "@type": "xsd:dateTime" },
+	"birthPlace": "kyc:birthPlace",
+        "nationality": "kyc:nationality",
 
         "driverLicenseId": "kyc:driverLicenseId",
 	"idCardNumber": "kyc:idCardNumber",
-        "passportNumber": "kyc:passportNumber"
-      }
-    },
+        "passportNumber": "kyc:passportNumber",
+        "socialSecurityNumber": "kyc:socialSecurityNumber",
 
-    "RegistrationAddressDetails": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#RegistrationAddressDetails",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
+        "emailAddress": "kyc:emailAddress",
+        "phoneNumber": "kyc:phoneNumber",
 
-        "id": "@id",
-        "type": "@type",
-
-        "kyc": "https://getportabl.github.io/kyc-vocab#",
-        
-        "country": "kyc:country",
-        "postalCode": "kyc:postalCode",
-        "region": "kyc:region",
-        "locality": "kyc:locality",
-        "streetAddress": "kyc:streetAddress"
+        "residentialAddress": { 
+          "@id": "kyc:ResidentialAddressCredential",
+          "@type": "kyc:ResidentialAddressCredential"
+        },
+        "registrationAddressDetails": { 
+          "@id": "kyc:RegistrationAddressDetails",
+          "@type": "kyc:RegistrationAddressDetails"
+        }
       }
     },
 
@@ -84,12 +61,11 @@
         "firstName": "kyc:firstName",
         "lastName": "kyc:lastName",
 
+        "sex": "kyc:sex",
         "birthDate": "kyc:birthDate",
 
         "issueDate": "kyc:issueDate",
-        "expiryDate": "kyc:expiryDate",
-	      
-        "sex": "kyc:sex"
+        "expiryDate": "kyc:expiryDate"    
       }
     },
 	  
@@ -109,12 +85,11 @@
         "firstName": "kyc:firstName",
         "lastName": "kyc:lastName",
 
+        "sex": "kyc:sex",
         "birthDate": "kyc:birthDate",
 
         "issueDate": "kyc:issueDate",
-        "expiryDate": "kyc:expiryDate",
-	      
-        "sex": "kyc:sex"
+        "expiryDate": "kyc:expiryDate"
       }
     },
 
@@ -135,16 +110,14 @@
         "firstName": "kyc:firstName",
         "lastName": "kyc:lastName",
 
+	"sex": "kyc:sex",
         "birthDate": "kyc:birthDate",
         "birthPlace": "kyc:birthPlace",
-
         "nationality": "kyc:nationality",
 
         "issueAuthority": "kyc:issueAuthority",
         "issueDate": "kyc:issueDate",
-        "expiryDate": "kyc:expiryDate",
-	      
-	"sex": "kyc:sex"
+        "expiryDate": "kyc:expiryDate"
       }
     },
 
@@ -204,6 +177,44 @@
         "kyc": "https://getportabl.github.io/kyc-vocab#",
 
         "phoneNumber": "kyc:phoneNumber"
+      }
+    },
+
+    ResidentialAddressCredential: {
+      '@id': 'https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#ResidentialAddressCredential',
+      '@context': {
+        '@version': 1.1,
+        '@protected': true,
+
+        id: '@id',
+        type: '@type',
+
+        kyc: 'https://getportabl.github.io/kyc-vocab#',
+
+        streetAddress: 'kyc:streetAddress',
+        locality: 'kyc:locality',
+        region: 'kyc:region',
+        postalCode: 'kyc:postalCode',
+        country: 'kyc:country'
+      }
+    },
+
+    RegistrationAddressDetails: {
+      '@id': 'https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#RegistrationAddressDetails',
+      '@context': {
+        '@version': 1.1,
+        '@protected': true,
+
+        id: '@id',
+        type: '@type',
+
+        kyc: 'https://getportabl.github.io/kyc-vocab#',
+
+        streetAddress: 'kyc:streetAddress',
+        locality: 'kyc:locality',
+        region: 'kyc:region',
+        postalCode: 'kyc:postalCode',
+        country: 'kyc:country'
       }
     }
   }
