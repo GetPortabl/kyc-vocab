@@ -7,7 +7,7 @@
     "type": "@type",
     
     "FinancialCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#FinancialCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#FinancialCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -46,7 +46,7 @@
     },
 
     "DriverLicenseCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#DriverLicenceCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#DriverLicenceCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -70,7 +70,7 @@
     },
 	  
     "IdCardCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#IdCardCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#IdCardCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -94,7 +94,7 @@
     },
 
     "PassportCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#PassportCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#PassportCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -122,7 +122,7 @@
     },
 
     "SocialSecurityCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#SocialSecurityCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#SocialSecurityCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -140,7 +140,7 @@
     },
 	  
     "SelfSignedIdCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#SelfSignedIdCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#SelfSignedIdCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -151,7 +151,7 @@
     },
 	  
     "EmailAddressCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#EmailAddressCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#EmailAddressCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -166,7 +166,7 @@
     },
 
     "PhoneNumberCredential": {
-      "@id": "https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#PhoneNumberCredential",
+      "@id": "https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#PhoneNumberCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -181,7 +181,7 @@
     },
 
     ResidentialAddressCredential: {
-      '@id': 'https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#ResidentialAddressCredential',
+      '@id': 'https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#ResidentialAddressCredential',
       '@context': {
         '@version': 1.1,
         '@protected': true,
@@ -200,7 +200,7 @@
     },
 
     RegistrationAddressDetails: {
-      '@id': 'https://getportabl.github.io/kyc-vocab/contexts/kyc-v1.jsonld#RegistrationAddressDetails',
+      '@id': 'https://getportabl.github.io/kyc-vocab/contexts/vkyc-v1.jsonld#RegistrationAddressDetails',
       '@context': {
         '@version': 1.1,
         '@protected': true,
